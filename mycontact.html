@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-[url('https://designshack.net/wp-content/uploads/best-subtle-black-white-background-textures.jpg')]">
+    <!--Navbar starts here-->
+    <nav class="bg-pink-300 flex justify-between">
+        <div class="flex md:pl-10 pl-2 pt-5 pb-3 bg-pink-300">
+            <img class="h-10 w-10" src="https://cdn.icon-icons.com/icons2/1993/PNG/512/account_avatar_face_man_people_profile_user_icon_123197.png" alt="">
+            <div class="font-bold py-3 text-xl pl-3 bg-pink-300">MY_PORTFOLIO</div>
+        </div>
+        <div>
+            <ul class="md:flex justify-evenly hidden font-semibold px-5 pt-7 pb-3 text-lg">
+                <a class="mx-[30px] cursor-pointer hover:text-white" href="myportfolio.html">Home</a>
+                <a class="mx-[30px] cursor-pointer hover:text-white" href="myabout.html">About</a>
+                <a class="mx-[30px] cursor-pointer hover:text-white" href="myservices.html">Services</a>
+                <a class="mx-[30px] cursor-pointer hover:text-white" href="myprojects.html">Projects</a>
+                <a class="mx-[30px] cursor-pointer text-white" href="mycontact.html">Contact</a>
+            </ul>
+        </div>
+        <div class="md:hidden px-5 pt-5 pb-3 bg-pink-300">
+            <a class="text-4xl" href="#">&#8801;</a>
+        </div>
+    </nav>
+     <!--Navbar ends here-->
+
+     <!--contact starts here-->
+     <div class="flex flex-col justify-center gap-3">
+        <div class="text-left">
+            <h1 class="text-left text-pink-300 mt-3 h-auto w-[200px] text-3xl pl-5 md:h-auto md:w-[420px] font-bold md:text-6xl font-serif md:m-5 md:mt-3">Contact Me</h1>
+            <div class="border-b-4 w-[200px] md:w-[400px] border-white rounded-xl"></div><br>
+            <div class="border-b-4 w-[150px] md:w-[300px] border-white rounded-xl"></div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-around items-center ">
+            <div class="items-center flex flex-col justify-center items-start gap-8">
+                <div class="flex flex-col items-center">
+                    <img class=" w-[50px] h-[50px] mb-2 ml-3" src="https://cdn.icon-icons.com/icons2/373/PNG/256/Whatsapp_37229.png" alt="">
+                    <h1 class="text-white font-bold font-serif ml-2 cursor-pointer">Phone No:</h1>
+                    <h3 class="text-white font-semibold font-medium ml-2 cursor-pointer">9711904358</h3>
+                </div>
+                <div class="flex flex-col items-center ">
+                    <img class=" w-[50px] h-[50px] mb-2 ml-0" src="https://cdn.icon-icons.com/icons2/1826/PNG/512/4202011emailgmaillogomailsocialsocialmedia-115677_115624.png" alt="">
+                    <h1 class="text-white font-bold font-serif cursor-pointer">E-mail:</h1>
+                    <h3 class="text-white font-semibold font-medium cursor-pointer">nehagargg07@gmail.com</h3>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class=" w-[50px] h-[50px] mb-2 ml-5" src="https://cdn.icon-icons.com/icons2/2444/PNG/512/location_map_pin_mark_icon_148685.png" alt="">
+                    <h1 class="text-white font-bold font-serif cursor-pointer ml-3">Address:</h1>
+                    <h3 class="text-white font-semibold font-medium ml-3 cursor-pointer">Delhi, India</h3>
+                </div>
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col justify-center items-center border-2 bg-black border-gray-200 w-[200px] md:w-[450px] mb-5">
+                <div><h1 class="text-pink-200 text-4xl font-semibold font-serif mt-3">You can message me</h1></div><br>
+                <input type="hidden" name="access_key" value="30d77ecc-73a1-4a1e-80a6-a5a0bbc1d478">
+                <div><input class="bg-gray-300 border-black border-2 w-[150px] md:w-[300px]  text-black placeholder-slate-900 mb-3" type="text" name="name" placeholder="   Enter your name"></div>
+                <div><input class="bg-gray-300 border-black border-2 w-[150px] md:w-[300px]  text-black placeholder-slate-900 mb-3" type="email" name="email" placeholder="   E-mail id"></div>
+                <div><input class="bg-gray-300 border-black border-2 w-[150px] h-[80px] md:w-[300px] md:h-[100px] text-black placeholder-slate-900 mb-3" type="text" name="message" placeholder="   Message"></div>
+                <button class="bg-pink-500 hover:bg-green-500 hover:text-black border-2 border-white cursor-pointer rounded-md text-white mb-3 mt-2 w-[130px]" type="submit" value="Send Message">Send Message</button>
+            </form>
+        </div>
+     </div>
+
+</body>
+</html>
